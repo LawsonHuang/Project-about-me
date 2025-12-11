@@ -23,10 +23,3 @@
    &nbsp;&nbsp;&nbsp;HW3: Sentiment analysis                                      Rank 14/100  
    &nbsp;&nbsp;&nbsp;HW4: Object detection                                        (In progress)  
    Appendix: evidence  
-   
-
-4. 超大型積體電路設計導論  
-   I.   Course  
-      
-   
-5. 類比積體電路導論  
