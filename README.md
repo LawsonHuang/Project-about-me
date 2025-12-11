@@ -19,10 +19,10 @@
    
 
 3. 人工智慧導論  
-   Competition Homework:
+   Competition Homework:  
    &nbsp;&nbsp;&nbsp;HW3: Sentiment analysis                                      Rank 14/100  
    &nbsp;&nbsp;&nbsp;HW4: Object detection                                        (In progress)  
-   Appendix: relevant evidence  
+   Appendix: evidence  
    
 
 4. 超大型積體電路設計導論  
