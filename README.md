@@ -1,5 +1,5 @@
 # Project-about-me
-這是關於我的實作紀錄  
+這是關於我的相關實作紀錄  
 1. 數位電路與系統  
    I.   Lab  
    &nbsp;&nbsp;&nbsp;Fundamental IP: FIFO、Pattern、FPGA LP Filter、Simplified AXI Interface、Synchronizer  
