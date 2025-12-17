@@ -5,7 +5,7 @@
    &nbsp;&nbsp;&nbsp;Fundamental IP: FIFO、Pattern、FPGA LP Filter、Simplified AXI Interface、Synchronizer  
    II.  Homework : 設計不同功能的小型模組，像是應用在 NN的稀疏矩陣計算 與 矩陣乘法和Convolution的共用設施，也有包括簡易CPU、GCD Compression的實作。  
    &nbsp;&nbsp;&nbsp;HW1:Simple Data Transfer                                     (Rank 108/100+)   
-   &nbsp;&nbsp;&nbsp;HW2:GCD Compression                                          (Rank 4/100+)   
+   &nbsp;&nbsp;&nbsp;HW2:GCD Compression                                          (Rank 7/100+)   
    &nbsp;&nbsp;&nbsp;HW3:Sparse Matrix Calculator                                 (Rank 4/100+)   
    &nbsp;&nbsp;&nbsp;HW4:MAC Array for Matrix Multiplication and Convolution      (Rank 3/100+)  
    &nbsp;&nbsp;&nbsp;HW5:Simple CPU                                               (Rank 2/100+)   
