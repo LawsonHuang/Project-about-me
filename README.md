@@ -13,10 +13,23 @@
 ### 輔助資料處理  
 計算機概論與程式設計 A-, 訊號與系統 A+, 機率 A+, 統計學 A+  
 
-
-
-
-`LOVE`
+## 相關作品與證明  
+除了審查資料內的專題與兩份期末專題，我另外列出幾個有趣、值得介紹的作品  
+### Digital Design (For ASIC)  
+1. Sparse Matrix Calculator  
+2. MAC Array for Matrix Multiplication and Convolution  
+### Digital Design (For FPGA)  
+1. FPGA and ARM Processor Co-Processing  
+2. DDR3/RAM/ROM Control (via Avalon Protocol)  
+### Analog Design  
+1. Two-stage OP-AMP  
+### AI  
+1. Sentiment Analysis  
+2. Node Classification
+### Image Processing  
+1. Canceling noises via FFT  
+2. Correcting severe turulence via Inverse Filter and Wiener Filter
+3. Recognize broken images
 
 這是關於我的作品紀錄  
 1. 數位電路與系統  
