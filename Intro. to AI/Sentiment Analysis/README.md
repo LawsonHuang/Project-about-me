@@ -25,7 +25,7 @@ Sentiment Analysis
 單一模型訓練，main.py 可以在 Colab 或本地端執行，執行指令如下：
 
 `python main.py \     ## 若在colab，則開頭需!python  
-    --train_csv ./dataset/train.csv \  
+<br>    --train_csv ./dataset/train.csv \  
     --test_csv ./dataset/test.csv \  
     --out_dir ./saved_models_large \  
     --model_name microsoft/deberta-v3-large \  
@@ -63,5 +63,6 @@ val_cm.csv / test_cm.csv
 val_report.txt / test_report.txt
 
 : 詳細的 Classification Report (含 Precision, Recall, F1-score)。
+
 
 
