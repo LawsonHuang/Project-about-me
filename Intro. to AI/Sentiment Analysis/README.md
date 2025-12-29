@@ -12,32 +12,31 @@ pip install -r requirements.txt
 ## 2. 資料準備 (Data Preparation)
 利用助教給的 data.ipynb，可以將原始資料集分割並儲存為 CSV 格式。
 請確保目錄結構如下：
-Sentiment Analysis
-├── dataset/
-│   ├── train.csv
-│   ├── test.csv
-│   └── dataset.csv
-├── main.py
-├── model.py
-└── requirements.txt
+Sentiment Analysis  
+├── dataset/  
+│   ├── train.csv  
+│   ├── test.csv  
+│   └── dataset.csv  
+├── main.py  
+├── model.py  
+└── requirements.txt  
 
 ## 3. 執行訓練 (Training)
-單一模型訓練 
-main.py 可以在 Colab 或本地端執行，執行指令如下：
+單一模型訓練，main.py 可以在 Colab 或本地端執行，執行指令如下：
 
-python main.py \     ## 若在colab，則開頭需!python
-    --train_csv ./dataset/train.csv \
-    --test_csv ./dataset/test.csv \
-    --out_dir ./saved_models_large \
-    --model_name microsoft/deberta-v3-large \
-    --max_length 128 \
-    --batch_size 8 \
-    --epochs 4 \
-    --dropout 0.1 \
-    --lr_encoder 1e-5 \
-    --lr_head 1e-4 \
-    --warmup_ratio 0.1 \
-    --seed 42
+'python main.py \     ## 若在colab，則開頭需!python  
+    --train_csv ./dataset/train.csv \  
+    --test_csv ./dataset/test.csv \  
+    --out_dir ./saved_models_large \  
+    --model_name microsoft/deberta-v3-large \  
+    --max_length 128 \  
+    --batch_size 8 \  
+    --epochs 4 \  
+    --dropout 0.1 \  
+    --lr_encoder 1e-5 \  
+    --lr_head 1e-4 \  
+    --warmup_ratio 0.1 \  
+    --seed 42'  
 執行後即可重建訓練環境並開始訓練。
 
 ## 4. 參數說明 (Arguments)
@@ -64,3 +63,4 @@ val_cm.csv / test_cm.csv
 val_report.txt / test_report.txt
 
 : 詳細的 Classification Report (含 Precision, Recall, F1-score)。
+
