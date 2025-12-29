@@ -1,4 +1,4 @@
-# HW3: Sentiment Analysis with Deep Learning
+# Sentiment Analysis with Deep Learning
 本專案使用 Microsoft DeBERTa V3 Large 模型進行情感分析。針對作業需求，代碼支援單一模型訓練以及在高性能 GPU (如 NVIDIA A100) 上進行多組超參數平行訓練。
 
 ## 成果  
@@ -60,6 +60,7 @@ checkpoint/ : 儲存驗證集 (Val) 表現最好的模型權重 (pytorch_model.b
 summary.json: 包含訓練、驗證、測試集的準確度 與 hyperparameter 紀錄。  
 val_cm.csv / test_cm.csv: 混淆矩陣原始數據。
 val_report.txt / test_report.txt: 詳細的Report，含 Precision, Recall, F1-score。
+
 
 
 
