@@ -24,7 +24,7 @@ Sentiment Analysis
 ## 3. 執行訓練 (Training)
 單一模型訓練，main.py 可以在 Colab 或本地端執行，執行指令如下：
 
-'python main.py \     ## 若在colab，則開頭需!python  
+`python main.py \     ## 若在colab，則開頭需!python  
     --train_csv ./dataset/train.csv \  
     --test_csv ./dataset/test.csv \  
     --out_dir ./saved_models_large \  
@@ -36,7 +36,7 @@ Sentiment Analysis
     --lr_encoder 1e-5 \  
     --lr_head 1e-4 \  
     --warmup_ratio 0.1 \  
-    --seed 42'  
+    --seed 42`
 執行後即可重建訓練環境並開始訓練。
 
 ## 4. 參數說明 (Arguments)
@@ -63,4 +63,5 @@ val_cm.csv / test_cm.csv
 val_report.txt / test_report.txt
 
 : 詳細的 Classification Report (含 Precision, Recall, F1-score)。
+
 
