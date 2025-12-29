@@ -39,16 +39,16 @@ python main.py \     ## 若在colab，則開頭需!python
 執行後即可重建訓練環境並開始訓練。  
 
 ### 4. 參數說明 (Arguments)  
-|參數 |         預設值      |                 說明
-|--|---|--  
---model_name  microsoft/deberta-v3-large  使用的 Pretrained Model  
---batch_size  8                           訓練批次大小
---epochs      30                          訓練總輪數  
---lr_encoder  1e-5                        Transformer Encoder 的學習率  
---lr_head     1e-4                        Classification Head 的學習率  
---dropout     0.1                         Dropout 機率  
---seed        42                          隨機種子  
---out_dir     ./saved_models/             模型與結果輸出路徑  
+|參數 |         預設值      |                 說明|
+|--|---|--  |
+|model_name | microsoft/deberta-v3-large  |使用的 Pretrained Model|  
+|batch_size | 8                           |訓練批次大小|
+|epochs     | 30                          |訓練總輪數  |
+|lr_encoder | 1e-5                        |Transformer Encoder 的學習率  |
+|lr_head    | 1e-4                        |Classification Head 的學習率  |
+|dropout    | 0.1                         |Dropout 機率  |
+|seed       | 42                          |隨機種子  |
+|out_dir    | ./saved_models/             |模型與結果輸出路徑|  
 
 
 
@@ -58,6 +58,7 @@ checkpoint/ : 儲存驗證集 (Val) 表現最好的模型權重 (pytorch_model.b
 summary.json: 包含訓練、驗證、測試集的準確度 與 hyperparameter 紀錄。  
 val_cm.csv / test_cm.csv: 混淆矩陣原始數據。
 val_report.txt / test_report.txt: 詳細的Report，含 Precision, Recall, F1-score。
+
 
 
 
