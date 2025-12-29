@@ -1,0 +1,18 @@
+核心深度學習框架 (建議使用 PyTorch 2.0 以上)
+torch>=2.0.0 torchvision torchaudio
+
+DeBERTa V3 Tokenizer 必備 (這行一定要有，否則會報錯)
+sentencepiece
+
+範例環境設定 (保持版本一致以避免衝突)
+accelerate==1.10.1
+datasets==4.0.0
+matplotlib==3.10.6
+numpy==2.3.3
+pandas==2.3.2
+scikit-learn==1.7.2
+tqdm==4.67.1
+transformers==4.56.1
+huggingface-hub==0.34.4
+protobuf==6.32.0
+emoji==2.14.1
