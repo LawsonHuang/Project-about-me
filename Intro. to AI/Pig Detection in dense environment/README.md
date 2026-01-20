@@ -1,8 +1,9 @@
 # Pig Detection in Dense Environments (HW4_111511167)
 本專案實作基於 YOLO11x 的豬隻偵測模型，針對密集遮擋與多視角環境進行優化。以下說明包含環境建置、資料前處理、模型訓練與評估流程。  
+## 隱藏測資(助教準備)測試成果: AP@50=0.9427  
 
 ## Project Structure 
-
+(由於權重檔過大，故上傳不瞭)
 請確保您的目錄結構如下所示，以利程式順利執行：  
 
 HW4_111511167/  
@@ -125,4 +126,5 @@ Step 4: 取得權重 (Model Weights)
 Path: runs/detect/train_pig_yolo11_x_1280_MAP50/weights/best.pt
 
 請將此檔案複製回根目錄並重新命名為 111511167.pt 以供使用。
+
 
