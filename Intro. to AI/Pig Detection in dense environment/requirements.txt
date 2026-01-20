@@ -1,0 +1,29 @@
+# --- Core Framework ---
+# RT-DETR 需要 ultralytics>=8.1.0，這裡維持 8.3.0 很安全
+ultralytics>=8.3.0
+
+# --- Deep Learning (Pytorch) ---
+torch>=2.0.0
+torchvision>=0.15.0
+
+# --- Image Processing ---
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# --- Data & Visualization ---
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+numpy>=1.23.0
+
+# --- Utilities ---
+PyYAML>=6.0
+tqdm>=4.65.0
+psutil>=5.9.0
+requests>=2.31.0
+scipy>=1.10.0
+
+# --- Inference Enhancement (SAHI) ---
+sahi>=0.11.15
+shapely>=2.0.0
+pycocotools>=2.0.7
