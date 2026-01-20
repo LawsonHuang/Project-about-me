@@ -17,17 +17,18 @@
 ## 相關作品與證明  
 除了審查資料內的專題與兩份期末專題，我另外列出幾個有趣、值得介紹的作品  
 ### Digital Design (For ASIC)  
-1. Sparse Matrix Calculator  
-2. MAC Array for Matrix Multiplication and Convolution  
+1. Sparse Matrix Calculator (展示)  
+2. MAC Array for Matrix Multiplication and Convolution (展示)  
 ### Digital Design (For FPGA)  
 1. FPGA and ARM Processor Co-Processing  
 2. DDR3/RAM/ROM Control (via Avalon Protocol)  
 ### Analog Design  
 1. Two-stage OP-AMP  
 ### AI  
-1. Sentiment Analysis  
-2. Node Classification
+1. Sentiment Analysis (展示)  
+2. Object Detection (展示)  
+3. Node Classification
 ### Image Processing  
-1. Canceling noises via FFT  
-2. Correcting severe turulence via Inverse Filter and Wiener Filter
-3. Recognize broken images  
+1. Canceling noises via FFT(展示)    
+2. Correcting severe turulence via Inverse Filter and Wiener Filter (展示)
+3. Recognize broken images(展示)  
